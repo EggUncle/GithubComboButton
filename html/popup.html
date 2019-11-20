@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+<body>
+  <div style="width:300px;height:150px; margin:0 auto;">
+    <form id="watch_type_id" action="radio_submit" method="get" accept-charset="utf-8">
+      watch type:
+      <br>
+      <br>
+      <label>
+        <input type="radio" name="watch_type" value="release_only">Releases only</label>
+      <label>
+        <input type="radio" name="watch_type" value="subscribed">Watching</label>
+      <label>
+        <input type="radio" name="watch_type" value="ignore">Ignoring</label>
+    </form>
+    <br>
+    <br>
+    <form id="combo_action_id" action="checkbox_submit" method="get" accept-charset="utf-8">
+      combos action:
+      <br>
+      <br>
+      <label>
+        <input type="checkbox" name="combo_action" value="watch">watch</label>
+      <label>
+        <input type="checkbox" name="combo_action" value="star">star</label>
+      <label>
+        <input type="checkbox" name="combo_action" value="fork">fork</label>
+    </form>
+  </div>
+</body>
+  <script type="text/javascript" src="../scripts/popup.js"></script>
+</html>
