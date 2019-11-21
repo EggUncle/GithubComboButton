@@ -1,11 +1,3 @@
-function generateHideElement(pName, pValue) {
-  var tempInput = document.createElement("input");
-  tempInput.type = "hidden";
-  tempInput.name = pName;
-  tempInput.value = pValue;
-  return tempInput;
-}
-
 function clickStarBtn() {
   var btnLiTag = document.getElementById('ch_ext_id_star_btn')
   var btnArr = btnLiTag.getElementsByTagName('button')
