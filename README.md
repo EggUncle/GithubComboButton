@@ -9,3 +9,6 @@ chrome扩展，github一键三连(watch/star/fork)按钮。
 ## 安装方式：
 1. 打开chrome开发者模式进行安装  
 下载或者clone当前repo，打开chrome->设置->扩展程序—>打开右上角的开发者模式—>点击[加载以解压的扩展程序]
+
+## 开发笔记
+https://egguncle.github.io/2019/11/21/chrome-%E6%8F%92%E4%BB%B6%E5%BC%80%E5%8F%91%E7%AC%94%E8%AE%B0/#more
