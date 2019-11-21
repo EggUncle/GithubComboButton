@@ -1,7 +1,3 @@
-var TYPE_STAR = 0
-var TYPE_FORK = 1
-var TYPE_WATCH = 2
-
 function generateHideElement(pName, pValue) {
   var tempInput = document.createElement("input");
   tempInput.type = "hidden";
